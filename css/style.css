@@ -59,6 +59,8 @@ body {
 
 .main-footer {
   flex-shrink: 0;
+  padding-top: 50px;
+  text-align: center;
 }
 
 .text-black {
@@ -199,8 +201,8 @@ body {
 .product-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-  height: 100vh;
+  grid-template-rows: repeat(4, 1fr);
+  height: 100%;
   grid-gap: 15px;
 }
 
@@ -265,7 +267,7 @@ body {
   }
 
   .box {
-    min-height: 300px;
+    height: 300px;
     margin: 15px 0;
   }
   .pop-up-content {
